@@ -1,0 +1,38 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: blue;
+}
+
+.piano-container {
+  border: 2px solid white;
+  display: flex;
+  position: absolute;
+  transform: translate (-50%, -50%);
+  left: 50%;
+  top: 50%;
+  padding: 4em 1em 1em 1em;
+  border-radius: 0.62em;
+  background-color: black;
+  box-shadow: 0 2em 4em black;
+}
+
+.white-key{
+  width: 4.37em;
+  height: 17.5em;
+  background-color: white;
+  border-radius: 0 0 0.3em 0.3em;
+  border: 2px solid #24272e;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.white-key:hover {
+  background-color: gray;
+}
+
+.black-key{
+  width: 2.5em;
+  height: 10em;
+  
+}
